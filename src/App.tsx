@@ -11,6 +11,7 @@ import Thyroid from './pages/services/Thyroid';
 import FamilyPlanning from './pages/services/FamilyPlanning';
 import Assessment from './pages/Assessment';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
             <Route path="/services/family-planning" element={<FamilyPlanning />} />
             <Route path="/assessment" element={<Assessment />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

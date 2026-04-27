@@ -68,7 +68,7 @@ export default function Thyroid() {
           </div>
 
           <div className="mt-20 p-12 bg-slate-900 rounded-[3rem] text-center text-white">
-            <h2 className="text-3xl font-light mb-6 font-sans">Stop Feeling Fatigued</h2>
+            <h2 className="text-3xl font-semibold mb-6 font-sans text-white">Stop Feeling Fatigued</h2>
             <p className="text-slate-400 mb-10 max-w-xl mx-auto">
               If you suspect your thyroid might be out of balance, schedule a blood panel today.
             </p>

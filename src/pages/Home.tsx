@@ -92,8 +92,8 @@ export default function Home() {
                </div>
                {/* Background image subtley overlaying or hinted */}
                <img 
-                 src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" 
-                 alt="Clinic Interior"
+                 src="/staff-blue.jpg" 
+                 alt="Bogata Health Clinic Team"
                  className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-30"
                />
             </div>

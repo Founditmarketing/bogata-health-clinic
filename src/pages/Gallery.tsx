@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 
 const images = [
-  { url: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09', title: 'Our Welcome Area' },
-  { url: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b', title: 'Consultation Suite' },
-  { url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d', title: 'Hormone Wellness' },
-  { url: 'https://images.unsplash.com/photo-1531983412531-1f49a365ffed', title: 'Prenatal Care' },
-  { url: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118', title: 'Clinical Precision' },
-  { url: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e', title: 'East Texas Roots' },
+  { url: '/staff-blue', title: 'Our Team', isLocal: true },
+  { url: '/mary-lynn-palmer', title: 'Mary Lynn Palmer, WHNP-BC', isLocal: true },
+  { url: '/clinic-exterior', title: 'Bogata Health Clinic', isLocal: true },
+  { url: '/staff-portrait-2', title: 'Our Staff', isLocal: true },
+  { url: 'https://images.unsplash.com/photo-1531983412531-1f49a365ffed', title: 'Prenatal Care', isLocal: false },
+  { url: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118', title: 'Clinical Precision', isLocal: false },
 ];
 
 const testimonials = [
@@ -50,7 +50,7 @@ export default function Gallery() {
               className="group relative rounded-[2rem] overflow-hidden shadow-xl aspect-[4/5] md:aspect-square"
             >
               <img
-                src={`${img.url}?auto=format&fit=crop&q=80&w=800`}
+                src={img.isLocal ? `${img.url}.jpg` : `${img.url}?auto=format&fit=crop&q=80&w=800`}
                 alt={img.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />

@@ -7,7 +7,7 @@ const mainServices = [
     path: '/services/biote',
     title: 'BioTE Hormone Therapy',
     desc: 'Customized bioidentical hormone replacement for both men and women using plant-based pellets.',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800',
+    image: '/staff-blue.jpg',
   },
   {
     path: '/services/prenatal',
@@ -25,7 +25,7 @@ const mainServices = [
     path: '/services/thyroid',
     title: 'Thyroid Management',
     desc: 'Specialized care for hypothyroidism and endocrine wellness to optimize metabolism and energy.',
-    image: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=800',
+    image: '/clinic-exterior.jpg',
   },
   {
     path: '/services/family-planning',

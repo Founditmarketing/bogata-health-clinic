@@ -18,8 +18,8 @@ export default function Thyroid() {
           
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-16 aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=1200"
-              alt="Wellness monitoring"
+              src="/clinic-exterior.jpg"
+              alt="Bogata Health Clinic — Thyroid Management"
               className="w-full h-full object-cover"
             />
           </div>

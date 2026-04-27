@@ -21,8 +21,8 @@ export default function BioTE() {
           
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-16 aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1200"
-              alt="Hormone Therapy Consultation"
+              src="/staff-blue.jpg"
+              alt="Bogata Health Clinic Team — BioTE Hormone Therapy"
               className="w-full h-full object-cover"
             />
           </div>

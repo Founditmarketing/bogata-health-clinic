@@ -60,9 +60,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] text-muted uppercase tracking-[0.2em] font-medium">
         <p>© {new Date().getFullYear()} Bogata Health Clinic. Excellence in Wellness.</p>
         <div className="flex gap-8">
-          <a href="#" className="hover:text-primary transition-colors">Privacy</a>
-          <a href="#" className="hover:text-primary transition-colors">Terms</a>
-        </div>
+            <span>HIPAA Compliant</span>
+            <span>Bogata, TX 75417</span>
+          </div>
       </div>
     </footer>
   );

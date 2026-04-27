@@ -52,7 +52,7 @@ export default function Home() {
                 stage of life.
               </h1>
               <p className="text-lg text-muted max-w-md leading-relaxed font-light">
-                Led by Mary Lynn Palmer, WHNP-BC, we focus on wellness instead of sickness through personalized hormone balancing and primary care.
+                Founded on the vision of Mary Lynn Palmer, WHNP-BC, we focus on wellness instead of sickness through personalized hormone balancing and primary care.
               </p>
             </div>
             

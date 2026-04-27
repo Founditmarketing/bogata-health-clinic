@@ -75,7 +75,7 @@ export default function FamilyPlanning() {
               href="tel:903-632-0078"
               className="inline-block bg-white text-primary px-10 py-5 rounded-full font-bold hover:scale-105 transition-transform"
             >
-              Speak with Mary Lynn
+              Speak with Our Team
             </a>
           </div>
         </motion.div>

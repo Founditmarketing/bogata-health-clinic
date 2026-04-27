@@ -63,7 +63,7 @@ export default function Thyroid() {
 
             <h2 className="text-3xl font-light text-slate-900">Our Treatment Approach</h2>
             <p>
-              Effective thyroid management starts with correct testing. We look beyond basic TSH levels to provide a more complete picture of your thyroid function. By analyzing various thyroid markers, Mary Lynn Palmer can develop a nuanced treatment plan that may include hormone replacement therapy, nutritional adjustments, and lifestyle modifications to help you feel your best again.
+              Effective thyroid management starts with correct testing. We look beyond basic TSH levels to provide a more complete picture of your thyroid function. By analyzing various thyroid markers, our clinical team develops a nuanced treatment plan that may include hormone replacement therapy, nutritional adjustments, and lifestyle modifications to help you feel your best again.
             </p>
           </div>
 

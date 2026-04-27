@@ -65,7 +65,7 @@ export default function BioTE() {
 
             <h2 className="text-3xl font-light text-slate-900">What to Expect</h2>
             <p>
-              The process begins with a comprehensive blood panel and a consultation with Mary Lynn Palmer. We will analyze your results and determine the exact dosage required. The insertion procedure takes less than 10 minutes and requires only local anesthesia. There is minimal downtime, and you can resume most normal activities immediately.
+              The process begins with a comprehensive blood panel and a consultation with our provider. We will analyze your results and determine the exact dosage required. The insertion procedure takes less than 10 minutes and requires only local anesthesia. There is minimal downtime, and you can resume most normal activities immediately.
             </p>
           </div>
 

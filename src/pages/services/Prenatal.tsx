@@ -31,7 +31,7 @@ export default function Prenatal() {
 
             <h2 className="text-3xl font-light text-slate-900">Comprehensive Support</h2>
             <p>
-              Under the guidance of Mary Lynn Palmer, WHNP-BC, our prenatal services focus on early and regular medical care to monitor your health and your baby&apos;s development. We believe in building a relationship of trust so you feel empowered and informed throughout your entire pregnancy.
+              Our prenatal services focus on early and regular medical care to monitor your health and your baby&apos;s development. We believe in building a relationship of trust so you feel empowered and informed throughout your entire pregnancy.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 NOT-prose">

@@ -21,7 +21,6 @@ export default function Footer() {
           <ul className="space-y-4 text-sm font-light">
             <li><Link to="/about" className="hover:text-primary transition-colors">Our Philosophy</Link></li>
             <li><Link to="/services" className="hover:text-primary transition-colors">Medical Care</Link></li>
-            <li><Link to="/gallery" className="hover:text-primary transition-colors">Wellness Stories</Link></li>
             <li><Link to="/assessment" className="hover:text-primary transition-colors">Health Assessment</Link></li>
             <li><Link to="/contact" className="hover:text-primary transition-colors">Appointments</Link></li>
           </ul>

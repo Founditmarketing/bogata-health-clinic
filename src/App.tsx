@@ -9,7 +9,6 @@ import Prenatal from './pages/services/Prenatal';
 import WellWoman from './pages/services/WellWoman';
 import Thyroid from './pages/services/Thyroid';
 import FamilyPlanning from './pages/services/FamilyPlanning';
-import Gallery from './pages/Gallery';
 import Assessment from './pages/Assessment';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
@@ -30,7 +29,6 @@ export default function App() {
             <Route path="/services/well-woman" element={<WellWoman />} />
             <Route path="/services/thyroid" element={<Thyroid />} />
             <Route path="/services/family-planning" element={<FamilyPlanning />} />
-            <Route path="/gallery" element={<Gallery />} />
             <Route path="/assessment" element={<Assessment />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

@@ -38,7 +38,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-[4rem] overflow-hidden shadow-2xl relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=1200"
+                src="/mary-lynn-palmer.jpg"
                 alt="Mary Lynn Palmer"
                 className="w-full h-full object-cover"
               />

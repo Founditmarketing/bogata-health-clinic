@@ -187,7 +187,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4">
              <div className="w-16 h-16 rounded-full border-2 border-accent p-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=150" 
+                  src="/mary-lynn-palmer.jpg" 
                   className="w-full h-full object-cover rounded-full"
                   alt="Mary Lynn Palmer"
                 />

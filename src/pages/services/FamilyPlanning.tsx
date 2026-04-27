@@ -18,7 +18,7 @@ export default function FamilyPlanning() {
           
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-16 aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1631217818242-a7c36a44c77c?auto=format&fit=crop&q=80&w=1200"
+              src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200"
               alt="Consultation meeting"
               className="w-full h-full object-cover"
             />

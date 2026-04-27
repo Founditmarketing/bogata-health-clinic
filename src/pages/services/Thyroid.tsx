@@ -18,7 +18,7 @@ export default function Thyroid() {
           
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-16 aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1584362917165-51b73ca0749d?auto=format&fit=crop&q=80&w=1200"
+              src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=1200"
               alt="Wellness monitoring"
               className="w-full h-full object-cover"
             />

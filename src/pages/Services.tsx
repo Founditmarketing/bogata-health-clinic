@@ -25,13 +25,13 @@ const mainServices = [
     path: '/services/thyroid',
     title: 'Thyroid Management',
     desc: 'Specialized care for hypothyroidism and endocrine wellness to optimize metabolism and energy.',
-    image: 'https://images.unsplash.com/photo-1584362917165-51b73ca0749d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=800',
   },
   {
     path: '/services/family-planning',
     title: 'Family Planning',
     desc: 'Education, birth control options, and health counseling to help you plan your future with confidence.',
-    image: 'https://images.unsplash.com/photo-1631217818242-a7c36a44c77c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=800',
   },
 ];
 

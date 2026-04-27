@@ -92,9 +92,9 @@ export default function Home() {
                </div>
                {/* Background image subtley overlaying or hinted */}
                <img 
-                 src="/staff-blue.jpg" 
-                 alt="Bogata Health Clinic Team"
-                 className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-30"
+                 src="/hero-biote.png" 
+                 alt="BioTE Hormone Therapy — Age Healthier, Live Happier"
+                 className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-20"
                />
             </div>
 

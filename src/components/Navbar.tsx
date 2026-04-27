@@ -36,9 +36,12 @@ export default function Navbar() {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link to="/" className="flex items-baseline gap-2 group">
-          <span className="text-2xl font-semibold tracking-tight text-primary transition-colors">Bogata Health Clinic</span>
-          <span className="hidden sm:inline text-[10px] uppercase tracking-widest opacity-60 font-medium text-muted">Wellness First</span>
+        <Link to="/" className="flex items-center group">
+          <img
+            src="/clinic-logo.jpg"
+            alt="Bogata Health Clinic"
+            className="h-12 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop Nav */}

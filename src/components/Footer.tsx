@@ -7,8 +7,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-16 pb-16">
         {/* Branding */}
         <div className="md:col-span-1 space-y-6">
-          <Link to="/" className="flex items-baseline gap-2 group">
-            <span className="text-2xl font-semibold tracking-tight text-primary">Bogata Health Clinic</span>
+          <Link to="/" className="flex items-center group">
+            <img
+              src="/clinic-logo.jpg"
+              alt="Bogata Health Clinic"
+              className="h-14 w-auto object-contain"
+            />
           </Link>
           <p className="text-sm leading-relaxed text-muted font-light">
             Founded by Mary Lynn Palmer, RN, WHNP-BC. Dedicated to balance and proactive healthcare in Bogata, Texas.

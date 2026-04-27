@@ -90,12 +90,7 @@ export default function Home() {
                   </p>
                   <p className="text-xs uppercase tracking-widest text-primary font-bold">— Mary Lynn Palmer</p>
                </div>
-               {/* Background image subtley overlaying or hinted */}
-               <img 
-                 src="/hero-biote.png" 
-                 alt="BioTE Hormone Therapy — Age Healthier, Live Happier"
-                 className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-20"
-               />
+
             </div>
 
             {/* Floating Card */}

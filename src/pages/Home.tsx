@@ -206,7 +206,7 @@ export default function Home() {
                   <span className="italic font-serif text-accent">to Balance.</span>
                </h2>
                <p className="text-white/70 text-lg font-light leading-relaxed max-w-md">
-                  Take our private hormone health assessment to understand your symptoms and take the first step toward feeling orignal again.
+                  Take our private hormone health assessment to understand your symptoms and take the first step toward feeling original again.
                </p>
                <Link 
                  to="/assessment" 

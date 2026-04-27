@@ -67,11 +67,26 @@ export default function Contact() {
             className="bg-white border border-slate-100 rounded-[3rem] p-8 md:p-12 shadow-2xl shadow-slate-200/50"
           >
             <h3 className="text-2xl font-light mb-8 text-slate-900 italic">Send Us a Message</h3>
-            <form className="space-y-6">
+            <form
+              className="space-y-6"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const fd = new FormData(e.currentTarget);
+                const name = fd.get('name') || '';
+                const phone = fd.get('phone') || '';
+                const email = fd.get('email') || '';
+                const service = fd.get('service') || '';
+                const message = fd.get('message') || '';
+                const body = `Name: ${name}%0APhone: ${phone}%0AEmail: ${email}%0AService: ${service}%0A%0AMessage:%0A${message}`;
+                window.location.href = `mailto:info@bogatahealthclinic.com?subject=Appointment Request — ${service}&body=${body}`;
+              }}
+            >
               <div className="space-y-2">
                 <label className="text-xs font-semibold uppercase tracking-widest text-slate-400 ml-1">Your Full Name</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
+                  name="name"
+                  required
                   placeholder="e.g. Jane Smith"
                   className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:bg-white focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-light"
                 />
@@ -80,17 +95,19 @@ export default function Contact() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-xs font-semibold uppercase tracking-widest text-slate-400 ml-1">Phone Number</label>
-                  <input 
-                    type="tel" 
-                    placeholder="e.g. 555-555-5555"
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="e.g. 903-555-0000"
                     className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:bg-white focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-light"
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-semibold uppercase tracking-widest text-slate-400 ml-1">Email Address</label>
-                  <input 
-                    type="email" 
-                    placeholder="e.g. jane@example.com"
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="e.g. jane@email.com"
                     className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:bg-white focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-light"
                   />
                 </div>
@@ -98,27 +115,28 @@ export default function Contact() {
 
               <div className="space-y-2">
                 <label className="text-xs font-semibold uppercase tracking-widest text-slate-400 ml-1">Service Needed</label>
-                <select className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:bg-white focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-light appearance-none">
+                <select name="service" className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:bg-white focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-light appearance-none">
                   <option>BioTE Hormone Therapy</option>
                   <option>Prenatal Care</option>
                   <option>Well-Woman Exam</option>
                   <option>Thyroid Management</option>
+                  <option>Family Planning</option>
                   <option>General Inquiry</option>
                 </select>
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs font-semibold uppercase tracking-widest text-slate-400 ml-1">Your Message</label>
-                <textarea 
+                <textarea
+                  name="message"
                   rows={4}
                   placeholder="How can we help you today?"
                   className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:bg-white focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-light resize-none"
                 />
               </div>
 
-              <button 
+              <button
                 type="submit"
-                onClick={(e) => e.preventDefault()}
                 className="w-full bg-primary text-white py-5 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-primary-light transition-all shadow-lg hover:shadow-primary/20"
               >
                 Send Message <Send size={18} />

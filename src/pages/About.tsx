@@ -101,8 +101,17 @@ export default function About() {
           <p>
             At Bogata Health Clinic, we believe that true health is more than just the absence of symptoms. It is a state of vibrant energy, hormonal balance, and emotional resilience. Our approach is deeply rooted in the philosophy of <strong>functional wellness</strong>—identifying the root causes of imbalances rather than just masking them.
           </p>
-          <div className="bg-white p-10 rounded-[2rem] border border-slate-100 italic font-serif text-primary text-xl text-center shadow-lg shadow-primary/5">
-            &ldquo;Healthcare should be a partnership between the provider and the patient, characterized by trust, transparency, and a shared goal of long-term vitality.&rdquo;
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center not-prose">
+            <div className="bg-white p-10 rounded-[2rem] border border-slate-100 italic font-serif text-primary text-xl text-center shadow-lg shadow-primary/5">
+              &ldquo;Healthcare should be a partnership between the provider and the patient, characterized by trust, transparency, and a shared goal of long-term vitality.&rdquo;
+            </div>
+            <div className="rounded-[2rem] overflow-hidden shadow-xl aspect-square">
+              <img
+                src="/DocImages/hands on yours comfort.png"
+                alt="Compassionate care at Bogata Health Clinic"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
           <p>
             Whether you are navigating the complexities of hormone changes, preparing for the joy of a new child, or seeking a more attentive approach to your annual exams, we are here to walk beside you. Our clinic provides a serene environment where technology meets humanity, and where every patient is heard.

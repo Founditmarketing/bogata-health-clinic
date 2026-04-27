@@ -13,13 +13,13 @@ const mainServices = [
     path: '/services/prenatal',
     title: 'Prenatal Care',
     desc: 'Expert medical monitoring and emotional support throughout every stage of your pregnancy.',
-    image: 'https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&q=80&w=800',
+    image: '/DocImages/Plan of discussion.png',
   },
   {
     path: '/services/well-woman',
     title: 'Well-Woman Exams',
     desc: 'Comprehensive annual screenings including Pap smears, pelvic and breast exams for overall health.',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800',
+    image: '/DocImages/taking medical notes.png',
   },
   {
     path: '/services/thyroid',
@@ -31,7 +31,7 @@ const mainServices = [
     path: '/services/family-planning',
     title: 'Family Planning',
     desc: 'Education, birth control options, and health counseling to help you plan your future with confidence.',
-    image: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=800',
+    image: '/DocImages/heart.png',
   },
 ];
 

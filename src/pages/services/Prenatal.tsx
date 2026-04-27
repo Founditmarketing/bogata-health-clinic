@@ -18,8 +18,8 @@ export default function Prenatal() {
           
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-16 aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&q=80&w=1200"
-              alt="Caring prenatal visit"
+              src="/DocImages/Plan of discussion.png"
+              alt="Prenatal consultation at Bogata Health Clinic"
               className="w-full h-full object-cover"
             />
           </div>

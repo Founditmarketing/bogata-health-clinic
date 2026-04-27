@@ -18,8 +18,8 @@ export default function WellWoman() {
           
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-16 aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200"
-              alt="Medical exam setting"
+              src="/DocImages/taking medical notes.png"
+              alt="Well-woman exam at Bogata Health Clinic"
               className="w-full h-full object-cover"
             />
           </div>

@@ -128,14 +128,19 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Area Placeholder */}
+      {/* Map Embed */}
       <section className="max-w-7xl mx-auto px-6">
-        <div className="h-[400px] bg-slate-100 rounded-[3rem] overflow-hidden flex items-center justify-center text-slate-400 border border-slate-200">
-          <div className="text-center">
-            <MapPin size={48} className="mx-auto mb-4" />
-            <p className="font-medium">Map Embed for 106 2nd St NW, Bogata, TX 75417</p>
-            <p className="text-sm">Bogata Health Clinic location visualization</p>
-          </div>
+        <div className="h-[450px] rounded-[3rem] overflow-hidden shadow-xl border border-slate-100">
+          <iframe
+            title="Bogata Health Clinic Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.1180032606567!2d-95.2143976!3d33.4722784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864a70304e5aa0a3%3A0x865ee5af065b7396!2s106%202nd%20St%20NW%2C%20Bogata%2C%20TX%2075417!5e0!3m2!1sen!2sus!4v1777315984716!5m2!1sen!2sus"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </section>
     </div>
